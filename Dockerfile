@@ -30,6 +30,7 @@ EXPOSE 8088
 RUN pip install google
 RUN pip install google-api-core
 RUN pip install google.cloud.bigquery
+RUN pip install sqlachemy-bigquery
 RUN pip install google.cloud.storage
 RUN pip install --upgrade google-api-python-client
 
